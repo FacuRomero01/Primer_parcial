@@ -1,4 +1,17 @@
 def calcular_promedio(lista:list,valor:int)->bool:
+    
+    """
+    Calcula el promedio de una lista de números y lo compara con un valor dado.
+
+    Parámetros:
+    lista (list): Una lista de números enteros o flotantes.
+    valor (int): Un número con el cual se comparará el promedio de la lista.
+
+    Retorna:
+    bool: True si el promedio de la lista es mayor que el valor dado, False en caso contrario.
+    También retorna False si la lista está vacía.
+    """
+    
     suma_lista = 0
     for i in range(len(lista)):
         suma_lista += lista[i]
